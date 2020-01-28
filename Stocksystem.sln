@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Stocksystem", "Stocksystem\", "{E8891F2E-6AC1-491B-9344-5E97998BC02F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50640"
+		Debug.AspNetCompiler.PhysicalPath = "Stocksystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50640\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50640"
+		Release.AspNetCompiler.PhysicalPath = "Stocksystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50640\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50640"
+		SlnRelativePath = "Stocksystem\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBackOffice", "CarBackOffice\CarBackOffice.csproj", "{96314785-3D86-44F8-A590-E0BC909D3D05}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CarFrontOffice", "CarFrontOffice\", "{50E2E35C-B8B6-4477-B10E-F2FF12D25A75}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3140"
+		Debug.AspNetCompiler.PhysicalPath = "CarFrontOffice\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3140\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3140"
+		Release.AspNetCompiler.PhysicalPath = "CarFrontOffice\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3140\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3140"
+		SlnRelativePath = "CarFrontOffice\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarClasses1", "CarClasses1\CarClasses1.csproj", "{CF438886-C55A-4EF5-B42E-F397748A6B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Testing", "Car Testing\Car Testing.csproj", "{4DC6BCA5-165C-45A9-B934-01E8ACA9B258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8891F2E-6AC1-491B-9344-5E97998BC02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8891F2E-6AC1-491B-9344-5E97998BC02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8891F2E-6AC1-491B-9344-5E97998BC02F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8891F2E-6AC1-491B-9344-5E97998BC02F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{96314785-3D86-44F8-A590-E0BC909D3D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96314785-3D86-44F8-A590-E0BC909D3D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96314785-3D86-44F8-A590-E0BC909D3D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96314785-3D86-44F8-A590-E0BC909D3D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E2E35C-B8B6-4477-B10E-F2FF12D25A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E2E35C-B8B6-4477-B10E-F2FF12D25A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E2E35C-B8B6-4477-B10E-F2FF12D25A75}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E2E35C-B8B6-4477-B10E-F2FF12D25A75}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CF438886-C55A-4EF5-B42E-F397748A6B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF438886-C55A-4EF5-B42E-F397748A6B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF438886-C55A-4EF5-B42E-F397748A6B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF438886-C55A-4EF5-B42E-F397748A6B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC6BCA5-165C-45A9-B934-01E8ACA9B258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC6BCA5-165C-45A9-B934-01E8ACA9B258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC6BCA5-165C-45A9-B934-01E8ACA9B258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC6BCA5-165C-45A9-B934-01E8ACA9B258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16625344-FBA9-43B9-9D62-DC4B5540E8BF}
+	EndGlobalSection
+EndGlobal
